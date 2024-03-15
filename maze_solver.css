@@ -1,0 +1,40 @@
+.maze {
+    display: grid;
+    grid-auto-rows: minmax(20px, 1fr);
+    border: 2px solid black;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.cell {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.start {
+    background-color: green;
+}
+
+.goal {
+    background-color: red;
+}
+
+.route {
+    background-color: yellow;
+}
+
+.wall-north {
+    border-top: none;
+}
+
+.wall-east {
+    border-right: none;
+}
+
+.wall-south {
+    border-bottom: none;
+}
+
+.wall-west {
+    border-left: none;
+}
